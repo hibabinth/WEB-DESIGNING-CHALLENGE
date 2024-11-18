@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    height: 150px;
+    background: pink;
+}
+.content{
+    height: 400px;
+    background: rgb(240, 117, 138);
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background: rgb(170, 61, 79);
+}
+.left-section{
+    width: 20%;
+    height: 400px;
+    background: orchid;
+    float: left;
+}
+.right-section{
+    width: 20%;
+    height: 400px;
+    background: orchid;
+    float: right;
+}

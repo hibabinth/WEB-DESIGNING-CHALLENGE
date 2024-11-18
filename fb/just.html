@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label>gender</label><br>
+        <input type="radio">
+        <label for="">Female</label>
+        <input type="radio">
+        <label for="">Male</label>
+        <input type="radio">
+        <label for="">Custom</label>
+        <label for="" >birthday</label>
+        <input type="date" id="dob">
+        <select name="" id="dob"></select>
+        <p>By clicking Sign Up,you agree to our Terms,Data Policy and Cookies Policy. <br> you may receive SMS notifications from <br> us and can opt out at any time</p>
+        <button>Sign Up</button>
+    </form>
+    <button id="btn">click me</button>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+            })
+            $("#btn").mouseenter(function(){
+                $(this).css({"background":"red"})
+            })
+        })
+    </script>
+</body>
+</html>
